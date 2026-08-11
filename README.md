@@ -22,7 +22,7 @@ Hi there, I'm **Đức Minh**,
 - 🤔 My hobbies are Natural Language Processing/Understanding, Computer Vision, Reinforcement Learning, etc.;
 - 💼 I am studying for an undergraduate degree in Software Engineering;
 - 💬 Ask me about anything, I'll be happy to help;
-- 📫 Please email MinhBDHE170083@fpt.edu.vn to contact me.
+- 📫 Please email MinhBDHE170083@gmail.com to contact me.
 <a>
   <img align="left" alt="ACM-ICPC" width="80px" src="https://genk.mediacdn.vn/thumb_w/640/2017/httpchannelvcmediavnprupload156201712img20171209112344983-1512796124774.jpg" />
 </a>

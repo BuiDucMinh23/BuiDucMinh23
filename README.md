@@ -1,60 +1,61 @@
-# Xin chào, tôi là Bùi Đức Minh 👋
+# Hi, I'm Bùi Đức Minh 👋
 
 **Software Engineer | .NET, React & Enterprise Information Systems**
 
-Tôi phát triển các hệ thống nghiệp vụ web cho khối quản trị và cổng thông tin công khai. Công việc của tôi trải từ phân tích use case, thiết kế module, phát triển API và giao diện, đến migration, kiểm thử, build/publish IIS và xử lý sự cố khi vận hành.
+I build business web applications for internal administration and public information portals. My work spans use-case analysis, module design, API and UI development, database migrations, testing, IIS deployment, and production issue resolution.
 
-## Chuyên môn
+## Areas of Expertise
 
-- Thiết kế và phát triển backend theo **Clean Architecture**: API, Application, Domain, Infrastructure.
-- Tổ chức nghiệp vụ theo **CQRS** với Commands, Queries, DTO, MediatR và Entity Framework Core.
-- Phát triển SPA quản trị bằng **React**, Ant Design, AG Grid, Redux; xây dựng cổng thông tin SSR bằng **Next.js**.
-- Xây dựng API, xác thực/phân quyền chức năng, quản lý dữ liệu, migration và tích hợp các dịch vụ nội bộ.
-- Triển khai ứng dụng .NET trên **IIS**, kiểm tra API, xử lý lỗi build/runtime và quản lý mã nguồn với Git.
+- Designing and developing backend systems with **Clean Architecture**: API, Application, Domain, and Infrastructure layers.
+- Organizing business logic with **CQRS**, Commands, Queries, DTOs, MediatR, and Entity Framework Core.
+- Building administration SPAs with **React**, Ant Design, AG Grid, and Redux; developing SSR public portals with **Next.js**.
+- Developing APIs, authentication and authorization, data management, migrations, and internal-service integrations.
+- Deploying .NET applications on **IIS**, validating APIs, troubleshooting build/runtime issues, and managing source code with Git.
 
-## Kinh nghiệm dự án tiêu biểu
+## Selected Project Experience
 
-### Hệ thống quản lý văn bản quy phạm pháp luật & cổng thông tin điện tử
+### Legal Document Management & Public Information Portal
 
-- Xây dựng use case quản trị cổng: cổng thông tin, trang, module hiển thị và sao chép module theo trang.
-- Phát triển API công khai và cổng thông tin Next.js: menu động, trang động, danh sách/chi tiết bài viết, tìm kiếm nhanh và tìm kiếm nâng cao.
-- Hoàn thiện quản lý kho tệp theo trải nghiệm Explorer: cây thư mục, upload, kiểm tra tên trùng, di chuyển, xem/cắt ảnh, quyền kế thừa và Full Control.
-- Phát triển quản lý album ảnh, phân quyền xử lý tệp/thư mục, public media và tích hợp dịch vụ File.
-- Xây dựng nhật ký đăng nhập/phiên làm việc, nhật ký hệ thống, ghi nhận IP, tra cứu, in và xuất dữ liệu.
-- Chuẩn hóa các danh mục hệ thống bằng controller CRUD dùng chung; bổ sung quốc gia, tỉnh/thành, thời hạn lưu trữ, mức độ hạn chế sử dụng và tình trạng vật lý tài liệu.
-- Refactor các module theo service phù hợp, chuẩn hóa prefix bảng, controller, command/query riêng biệt và dữ liệu migration.
+- Delivered portal administration use cases: portal configuration, page management, display modules, and module copying between pages.
+- Developed public APIs and a Next.js information portal with dynamic menus/pages, article listing and details, quick search, and advanced search.
+- Completed Explorer-like file storage management: folder tree, uploads, duplicate-name validation, moving files, image preview/cropping, inherited permissions, and Full Control.
+- Built image album management, file/folder authorization, public media delivery, and File service integration.
+- Implemented login/session monitoring and system logs with IP capture, filtering, printing, and data export.
+- Standardized system catalogs through a shared CRUD controller; added countries, provinces/cities, document retention periods, usage restrictions, and physical document conditions.
+- Refactored modules into appropriate services, standardized table prefixes, separated controllers/commands/queries, and maintained migration data.
 
-### Hệ thống quản lý công nhận chuẩn, hồ sơ và đánh giá — HCMA.CTCT
+### Accreditation, Records & Assessment Management System — HCMA.CTCT
 
-- Phát triển các luồng hồ sơ đề xuất, hồ sơ công nhận chuẩn, hồ sơ tiếp nhận và quản lý minh chứng.
-- Xây dựng phân loại hồ sơ, đánh giá, thực hiện rà soát, phân công rà soát, trao đổi chung và thông báo rà soát.
-- Phát triển danh mục, chỉ tiêu, chỉ số dữ liệu, đơn vị, thành viên, chức vụ và các biểu mẫu nghiệp vụ.
-- Tích hợp tài liệu DOCX: cấu hình mẫu, phụ lục, báo cáo tổng hợp, xuất dữ liệu và xử lý tệp đính kèm.
-- Hoàn thiện phân quyền người dùng/đơn vị, kiểm soát quyền xem–sửa và khắc phục các lỗi bảo mật/readonly.
-- Cải tiến giao diện danh sách, biểu mẫu, trạng thái, tìm kiếm/lọc và xử lý lỗi dữ liệu, font chữ, preview/lưu file.
+- Developed proposal records, accreditation records, intake records, and evidence management workflows.
+- Built record classification, assessment, review execution, review assignment, discussion, and review notification features.
+- Developed catalogs, indicators, data metrics, organizational units, members, job titles, and business forms.
+- Integrated DOCX document workflows: template configuration, appendices, consolidated reports, data export, and attachment handling.
+- Improved user/unit authorization, view/edit access control, and resolved security and readonly issues.
+- Enhanced list views, forms, statuses, searching/filtering, and fixed data, font, file preview, and persistence issues.
 
-## Công nghệ
+## Technology Stack
 
-| Nhóm | Công nghệ |
+| Area | Technologies |
 | --- | --- |
-| Backend | C#, ASP.NET Core Web API, MediatR, Entity Framework Core, REST API |
-| Kiến trúc | Clean Architecture, CQRS, DTO, Dependency Injection, Modular services |
+| Backend | C#, ASP.NET Core Web API, MediatR, Entity Framework Core, REST APIs |
+| Architecture | Clean Architecture, CQRS, DTOs, Dependency Injection, modular services |
 | Frontend | React, Next.js, JavaScript, Ant Design, AG Grid, Redux, Bootstrap |
-| Tài liệu & dữ liệu | SQL Server, EF Core Migration, DOCX templates, Excel export, file/media management |
-| Vận hành | IIS, API Gateway, npm, PowerShell, Git, build/publish và chẩn đoán lỗi |
+| Documents & Data | SQL Server, EF Core Migrations, DOCX templates, Excel export, file/media management |
+| Delivery & Operations | IIS, API Gateway, npm, PowerShell, Git, build/publish, and incident diagnosis |
 
-## Cách tôi làm việc
+## How I Work
 
-- Bắt đầu từ yêu cầu nghiệp vụ và kiểm tra đầu ra trước khi tối ưu kỹ thuật.
-- Tôn trọng kiến trúc, convention và các thành phần dùng chung của từng hệ thống.
-- Tách trách nhiệm rõ ràng giữa controller, command, query, DTO và module giao diện.
-- Ưu tiên mã dễ đọc, có thể bảo trì, tái sử dụng được và an toàn khi thay đổi.
-- Build, kiểm thử và kiểm tra triển khai sau mỗi thay đổi có ảnh hưởng đến vận hành.
+- Start with business requirements and verify expected outcomes before optimizing implementation details.
+- Respect the architecture, conventions, and shared components of each system.
+- Keep clear separation between controllers, commands, queries, DTOs, and frontend modules.
+- Prefer readable, maintainable, reusable, and safe-to-change code.
+- Build, test, and validate deployment whenever a change can affect production behavior.
 
-## Kết nối với tôi
+## Connect with Me
+
 
 - Facebook: [Minh Bùi]([https://www.facebook.com/profile.php?id=100084010880327](https://www.facebook.com/bui.uc.minh.682166/))
 - Instagram: [@minhbdhe170083]([https://www.instagram.com/minhbdhe170083/](https://www.instagram.com/minhbdhe170083/))
 - Email: [MinhBDHE170083@gmail.com](mailto:MinhBDHE170083@gmail.com)
 
-> Tôi quan tâm đến việc biến yêu cầu nghiệp vụ phức tạp thành sản phẩm ổn định, dễ sử dụng và có thể tiếp tục phát triển lâu dài.
+> I enjoy turning complex business requirements into stable, practical products that remain easy to use and evolve over time.
